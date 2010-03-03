@@ -3,7 +3,6 @@
   (:use [beget.response :only [success]]
         [beget.templates :only [index]]
         [compojure :only [defroutes GET]]
-        [hiccup :only [html]]
         [ring.util.servlet :only [defservice]]))
 
 (defroutes app
