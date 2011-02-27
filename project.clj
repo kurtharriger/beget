@@ -6,6 +6,6 @@
                  [ring "0.3.5"]
                  [com.google.appengine/appengine-tools-sdk "1.3.0"]]
   :dev-dependencies [[swank-clojure "1.2.1"]]
-  :namespaces [beget]
+  :aot [beget]
   :compile-path "war/WEB-INF/classes/"
   :library-path "war/WEB-INF/lib/")
