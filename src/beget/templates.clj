@@ -1,5 +1,5 @@
 (ns beget.templates
-  (:use [hiccup :only [html]]
+  (:use [hiccup.core :only [html]]
         [hiccup.page-helpers :only [include-css]]))
 
 (defn layout [title content]

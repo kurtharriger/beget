@@ -2,7 +2,7 @@
   (:gen-class :extends javax.servlet.http.HttpServlet)
   (:use [beget.response :only [success]]
         [beget.templates :only [index]]
-        [compojure :only [defroutes GET]]
+        [compojure.core :only [defroutes GET]]
         [ring.util.servlet :only [defservice]]))
 
 (defroutes app
